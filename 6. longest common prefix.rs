@@ -8,7 +8,6 @@ fn longest_common_prefix(s: &[String]) -> String {
 
     let mut pre = s[0].clone(); 
 
-    / Iterate through each string in the vector (except the first one)
     for i in &s[1..] {
         
         while !i.starts_with(&pre) {
