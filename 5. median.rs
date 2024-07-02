@@ -15,7 +15,7 @@ fn median(a: &[f64]) -> Option<f64> {
         Some(median)
     } else {
         
-        Some(a[mid]+1)
+        Some(a[mid])
     }
 }
 
